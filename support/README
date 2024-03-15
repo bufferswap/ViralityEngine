@@ -1,0 +1,30 @@
+These are generally entirely complete independent systems that have been
+brought into the Virality codebase to make packaging, evolution, debugging, and
+maintenance of Virality easier. This fundamentally forks them from their
+original repos and without the previous history. These libraries were mostly
+created for Virality itself, so they innately synchronize well with the
+Virality source. In order for these libraries to co-exist with version of the
+upstream libraries, system names and packages had to be changed.
+
+When these systems were entailed into Virality, this was the provenance from
+whence they came:
+
+vorigin/
+	Derived from Michael Fiano's origin math library.
+	http://github.com/mfiano/origin
+	master @ 5f143c0
+
+vutils/
+	Derived from Michael Fiano's mfiano-utils library.
+	http://github.com/mfiano/mfiano-utils
+	master @ 65df8d4
+
+shadow/
+	Derived from Michael Fiano's shadow library.
+	http://github.com/mfiano/shadow
+	master @ 85355cd
+
+umbra/
+	Derived from Michael Fiano's umbra library.
+	http://github.com/mfiano/umbra
+	master @ 09fd492

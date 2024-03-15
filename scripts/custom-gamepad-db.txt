@@ -1,0 +1,5 @@
+# Custom joystick and gamepad definitions.
+# These are here for representing joysticks our users want before they
+# end up in SDL. We prolly should write a script to check the intersection.
+
+# Currently, there are none.
